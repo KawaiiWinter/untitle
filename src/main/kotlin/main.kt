@@ -4,7 +4,7 @@ import java.sql.SQLException
 import java.sql.Statement
 
 fun main(){
-    query("show databases")
+    query("create user tmp@%")
 }
 
 fun query(sql: String) {
