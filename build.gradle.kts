@@ -19,6 +19,8 @@ dependencies {
     implementation("com.google.guava:guava:22.0")
     implementation("org.apache.commons:commons-math3:3.6.1")
     implementation("net.dv8tion:JDA:4.1.1_153")
+    implementation("com.discord4j:discord4j-core:3.1.0.RC1")
+    implementation("org.slf4j:slf4j-api:1.7.25")
 }
 
 configure<JavaPluginConvention> {
